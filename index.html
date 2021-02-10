@@ -8,7 +8,13 @@ title: with.asのサイト
   <h2>コンテンツ</h2>
   <!--<h3>Minecrat</h3>-->
   {% for category in site.categories %}
-  <h3>{{ category[0] }}</h3>
+  <h3>
+    {% if category[0] == "projectn" %}
+    ProjectN
+    {% else %}
+    {{ category[0] | capitalize }}
+    {% endif %}
+  </h3>
   <ul>
     {% for post in category[1] %}
     <li>
