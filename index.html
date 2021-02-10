@@ -7,15 +7,14 @@ title: with.asのサイト
   
   <h2>コンテンツ</h2>
   <!--<h3>Minecrat</h3>-->
+  {% for category in site.categories %}
+  <h3>{{ category[0] }}</h3>
   <ul>
-    {% for post in site.posts %}
+    {% for post in category[1] %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date_to_string }}
     </li>
     {% endfor %}
-    <!--
-    <li><a href="irongolem.html">アイアンゴーレムトラップ</a> - 19.07.10</li>
-    <li><a href="villager.html">村人との取引・バグ</a> - 19.07.10</li>
-    -->
   </ul>
+  {% endfor %}
 </article>

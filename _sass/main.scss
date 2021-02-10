@@ -24,6 +24,10 @@ img.def {
     width: 40%;
 }
 
+.novel {
+    max-width: 600px;
+}
+
 @media screen and (max-width:480px) {
     * {
 	float: none;
