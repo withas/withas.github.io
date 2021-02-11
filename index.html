@@ -5,22 +5,14 @@ title: with.asのサイト
 <article>
   <p>このサイトはPC・スマホでの閲覧を想定して作っています。</p>
   
-  <h2>コンテンツ</h2>
-  <!--<h3>Minecrat</h3>-->
-  {% for category in site.categories %}
-  <h3>
-    {% if category[0] == "projectn" %}
-    ProjectN
-    {% else %}
-    {{ category[0] | capitalize }}
-    {% endif %}
-  </h3>
+  <h2>更新履歴</h2>
+  
   <ul>
-    {% for post in category[1] %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date_to_string }}
-    </li>
-    {% endfor %}
-  </ul>
+  {% for post in site.posts %}
+  <li>
+    <a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date_to_string }}
+  </li>
   {% endfor %}
+  </ul>
+
 </article>
