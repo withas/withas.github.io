@@ -1,0 +1,6 @@
+- name: Home
+  link: /
+- name: Project N
+  link: /projectn
+- name: Minecraft
+  link: /minecraft
