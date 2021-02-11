@@ -1,0 +1,15 @@
+---
+layout: default
+title: Project N
+---
+<article>
+  <h2>Project N</h2>
+  <p>「Project N」の世界のショートストーリーです。</p>
+  <ul>
+  {% for post in site.categories.projectn %}
+  <li>
+    <a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date_to_string }}
+  </li>
+  {% endfor %}
+  </ul>
+</article>
