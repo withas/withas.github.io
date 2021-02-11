@@ -10,6 +10,11 @@
 
     <div id="main">
       {{ content }}
+
+    {% if page.url != "/" %}
+    <a href="/">トップページに戻る</a>
+    {% endif %}
+
     </div>
     
     {% include footer.html %}
