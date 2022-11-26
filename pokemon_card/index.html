@@ -1,0 +1,28 @@
+---
+layout: default
+title: ポケモンカード 欲しいものリスト
+---
+<article>
+  <h2>ポケモンカード 欲しいものリスト</h2>
+  <p>
+    ポケモンカードの欲しいものリストです。<br>
+    最終更新：{{ site.data.pokemon_card.update }}
+  </p>
+  <ul>
+    {% for card_data in site.data.pokemon_card.list %}
+      <li>
+        <h3>{{ card_data.name }}</h3>
+        <a href="{{ card_data.link }}">
+          <img src="{{ card_data.image }}" width="184" height="256">
+        </a>
+        <p>
+          <ul>
+            <li>収録パック：{{ card_data.pack }}</li>
+            <li>条件：{{ card_data.cond }}</li>
+            <li>枚数：{{ card_data.count }}</li>
+          </ul>
+        </p>
+      </li>
+    {% endfor %}
+  </ul>
+</article>
