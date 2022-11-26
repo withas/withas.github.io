@@ -6,10 +6,11 @@ title: ティラノスクリプト
   <h2>ティラノスクリプト</h2>
   <p>ティラノスクリプトの実験場です。</p>
   <ul>
-  {% for post in site.categories.tyrano %}
-  <li>
-    <a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date_to_string }}
-  </li>
-  {% endfor %}
+    {% for post in site.categories.tyrano %}
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+        - {{ post.date | date_to_string }}
+      </li>
+    {% endfor %}
   </ul>
 </article>

@@ -4,17 +4,17 @@
 
   <ul>
     {% for item in site.data.navigation %}
-    <li>
-      {% if page.url != item.link" %}
-      <a href="{{ item.link }}">
-	{% endif %}
-	
-	{{ item.name }}
-	
-	{% if page.url != item.link" %}
-      </a>
-      {% endif %}
-    </li>
+      <li>
+        {% if page.url != item.link %}
+          <a href="{{ item.link }}">
+          {% endif %}
+
+          {{ item.name }}
+
+          {% if page.url != item.link %}
+          </a>
+        {% endif %}
+      </li>
     {% endfor %}
   </ul>
 

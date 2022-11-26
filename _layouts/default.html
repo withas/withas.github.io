@@ -2,7 +2,7 @@
 <html lang="ja">
 
   {% include head.html %}
-  
+
   <body>
 
     {% include header.html %}
@@ -11,13 +11,13 @@
     <div id="main">
       {{ content }}
 
-    {% if page.url != "/" %}
-    <a href="/">トップページに戻る</a>
-    {% endif %}
+      {% if page.url != "/" %}
+        <a href="/">トップページに戻る</a>
+      {% endif %}
 
     </div>
-    
+
     {% include footer.html %}
-    
+
   </body>
 </html>
