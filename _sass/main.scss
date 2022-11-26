@@ -1,22 +1,22 @@
 @charset "utf-8";
 
 body {
-    background-color: #323639;
-    font-size: 100%;
-    font-family: sans-serif;
-    color: #ffffff;
-    width: 80%;
-    margin: 0 auto;
+  background-color: #323639;
+  font-size: 100%;
+  font-family: sans-serif;
+  color: #ffffff;
+  width: 80%;
+  margin: 0 auto;
 }
 
 nav {
-    float: left;
-    width: 20%;
-    min-width: 140px;
+  float: left;
+  width: 20%;
+  min-width: 140px;
 }
 
 footer {
-    clear: both;
+  clear: both;
 }
 
 /*
@@ -26,88 +26,92 @@ h1 {
 */
 
 li {
-    list-style-type: none;
+  list-style-type: none;
 }
 
-a:link { color: #00a2e8; }
-a:visited { color: #a349a4; }
+a:link {
+  color: #00a2e8;
+}
+a:visited {
+  color: #a349a4;
+}
 
 a#title {
-    color: #fff200;
-    text-decoration: none;
+  color: #fff200;
+  text-decoration: none;
 }
 
 img.def {
-    width: 40%;
+  width: 40%;
 }
 
 #main {
-    float: left;
-    width: 100%;
-    max-width: 860px;
+  float: left;
+  width: 100%;
+  max-width: 860px;
 }
 
 .novel {
-    max-width: 600px;
+  max-width: 600px;
 }
 
 .iframeWrap {
-    position: relative;
-    width: 100%;
-    padding: calc(640 / 960 * 100%) 0 0;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+  position: relative;
+  width: 100%;
+  padding: calc(640 / 960 * 100%) 0 0;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .iframeWrap2 {
-    position: relative;
-    width: 100%;
-    padding: calc(720 / 1280 * 100%) 0 0;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+  position: relative;
+  width: 100%;
+  padding: calc(720 / 1280 * 100%) 0 0;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .iframeWrap iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .iframeWrap2 iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 #copyright {
-    text-align: center;
+  text-align: center;
 }
 
-@media screen and (max-width:480px) {
-    * {
-        float: none;
-        position: static;
-    }
-    
-    body {
-        width: 96%;
-    }
+@media screen and (max-width: 480px) {
+  * {
+    float: none;
+    position: static;
+  }
 
-    nav {
-        width: 100%;
-    }
-    
-    img.def {
-        width: 100%;
-        max-width: 100%;
-        height: auto;
-    }
+  body {
+    width: 96%;
+  }
 
-    #main {
-        width: 100%;
-    }
+  nav {
+    width: 100%;
+  }
+
+  img.def {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  #main {
+    width: 100%;
+  }
 }
