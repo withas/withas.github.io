@@ -55,7 +55,7 @@ img.def {
   max-width: 600px;
 }
 
-.iframeWrap {
+.iframe-wrapper640 {
   position: relative;
   width: 100%;
   padding: calc(640 / 960 * 100%) 0 0;
@@ -63,7 +63,7 @@ img.def {
   margin-bottom: 1rem;
 }
 
-.iframeWrap2 {
+.iframe-wrapper720 {
   position: relative;
   width: 100%;
   padding: calc(720 / 1280 * 100%) 0 0;
@@ -71,7 +71,7 @@ img.def {
   margin-bottom: 1rem;
 }
 
-.iframeWrap iframe {
+.iframe-wrapper640 iframe {
   position: absolute;
   top: 0;
   left: 0;
@@ -79,7 +79,7 @@ img.def {
   height: 100%;
 }
 
-.iframeWrap2 iframe {
+.iframe-wrapper720 iframe {
   position: absolute;
   top: 0;
   left: 0;
