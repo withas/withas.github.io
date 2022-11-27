@@ -5,24 +5,26 @@ title: ポケモンカード 欲しいものリスト
 <header class="page-info">
   <h2 class="page-title">ポケモンカード 欲しいものリスト</h2>
   <p>
-    ポケモンカードの欲しいものリストです。<br>
+    ポケモンカードの欲しいものリストです。
+  </p>
+  <p class="page-date">
     最終更新：{{ site.data.pokemon_card.update }}
   </p>
 </header>
-<ul>
+<ul class="wish-list">
   {% for card_data in site.data.pokemon_card.list %}
     <li>
-      <h3>{{ card_data.name }}</h3>
-      <a href="{{ card_data.link }}">
-        <img src="{{ card_data.image }}" width="184" height="256">
-      </a>
-      <p>
+      <h3 class="section-title">{{ card_data.name }}</h3>
+      <div class="card-data">
+        <a href="{{ card_data.link }}">
+          <img src="{{ card_data.image }}" width="184" height="256">
+        </a>
         <ul>
           <li>収録パック：{{ card_data.pack }}</li>
           <li>条件：{{ card_data.cond }}</li>
           <li>枚数：{{ card_data.count }}</li>
         </ul>
-      </p>
+      </div>
     </li>
   {% endfor %}
 </ul>

@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+/* ポケモンカードのページ
+------------------------------- */
+
+ul.wish-list {
+  list-style-type: none;
+}
+
+.card-data {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+}
+
+.card-data img {
+  margin-bottom: 0;
+}
+
+.card-data ul {
+  list-style: disc inside;
+  margin-left: 18px;
+}
+
+@media screen and (max-width: 480px) {
+  .card-data {
+    flex-direction: column;
+  }
+}
