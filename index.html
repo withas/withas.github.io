@@ -4,15 +4,16 @@ title: with.asのサイト
 ---
 <article>
   <p>このサイトはPC・スマホでの閲覧を想定して作っています。</p>
-  
+
   <h2>更新履歴</h2>
-  
+
   <ul>
-  {% for post in site.posts %}
-  <li>
-    <a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date_to_string }}
-  </li>
-  {% endfor %}
+    {% for post in site.posts %}
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+        - {{ post.date | date: "%Y/%m/%d" }}
+      </li>
+    {% endfor %}
   </ul>
 
 </article>

@@ -1,21 +1,23 @@
-<nav>
+<aside>
+  <nav class="main-nav">
 
-  <h3>カテゴリ</h3>
+    <h3>カテゴリ</h3>
 
-  <ul>
-    {% for item in site.data.navigation %}
-      <li>
-        {% if page.url != item.link %}
-          <a href="{{ item.link }}">
-          {% endif %}
-
-          {{ item.name }}
-
+    <ul>
+      {% for item in site.data.navigation %}
+        <li>
           {% if page.url != item.link %}
-          </a>
-        {% endif %}
-      </li>
-    {% endfor %}
-  </ul>
+            <a href="{{ item.link }}">
+            {% endif %}
 
-</nav>
+            {{ item.name }}
+
+            {% if page.url != item.link %}
+            </a>
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+
+  </nav>
+</aside>
