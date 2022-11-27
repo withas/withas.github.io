@@ -102,38 +102,6 @@ article p {
   max-width: 600px;
 }
 
-.iframe-wrapper640 {
-  position: relative;
-  width: 100%;
-  padding: calc(640 / 960 * 100%) 0 0;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-
-.iframe-wrapper720 {
-  position: relative;
-  width: 100%;
-  padding: calc(720 / 1280 * 100%) 0 0;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-
-.iframe-wrapper640 iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-.iframe-wrapper720 iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
 @media screen and (max-width: 480px) {
   .main-contents {
     flex-direction: column;
