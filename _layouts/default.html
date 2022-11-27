@@ -6,15 +6,19 @@
   <body>
 
     {% include header.html %}
-    {% include navigation.html %}
 
-    <div id="main">
-      {{ content }}
+    <div class="main-contents wrapper">
+      {% include navigation.html %}
 
-      {% if page.url != "/" %}
-        <a href="/">トップページに戻る</a>
-      {% endif %}
+      <article>
+        {{ content }}
 
+        {% if page.url != "/" %}
+          <div class="page-bottom">
+            <a href="/">トップページに戻る</a>
+          </div>
+        {% endif %}
+      </article>
     </div>
 
     {% include footer.html %}

@@ -1,7 +1,9 @@
 ---
 layout: default
 ---
-<h2>{{ page.title }}</h2>
-<p>{{ page.date | date: "%Y/%m/%d" }}</p>
+<header class="page-info">
+  <h2 class="page-title">{{ page.title }}</h2>
+  <p class="page-date">{{ page.date | date: "%Y/%m/%d" }}</p>
+</header>
 
 {{ content }}
