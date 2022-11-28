@@ -20,7 +20,9 @@ title: ポケモンカード 欲しいものリスト
           <img src="{{ card_data.image }}" width="184" height="256">
         </a>
         <ul>
-          <li>収録パック：{{ card_data.pack }}</li>
+          {% if card_data.pack %}
+            <li>収録パック：{{ card_data.pack }}</li>
+          {% endif %}
           <li>条件：{{ card_data.cond }}</li>
           <li>枚数：{{ card_data.count }}</li>
         </ul>
