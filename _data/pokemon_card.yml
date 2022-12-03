@@ -1,19 +1,8 @@
 update: 2022/11/28
 list:
-  - name: ヨマワル
-    link: https://www.pokemon-card.com/card-search/details.php/card/38541/regu/XY
-    image: https://www.pokemon-card.com/assets/images/card_images/large/S4/038541_P_YOMAWARU.jpg
-    pack: s4, s8b
-    cond: 33円以下
-    count: 1
-  - name: あなぬけのヒモ
-    link: https://www.pokemon-card.com/card-search/details.php/card/40832/regu/XY
-    image: https://www.pokemon-card.com/assets/images/card_images/large/SI/040832_T_ANANUKENOHIMO.jpg
-    cond: 33円以下
-    count: 4
-  - name: キャプチャーエネルギー
-    link: https://www.pokemon-card.com/card-search/details.php/card/37980/regu/XY
-    image: https://www.pokemon-card.com/assets/images/card_images/large/S2/037980_E_KYAPUCHAENERUGI.jpg
-    pack: s2, s4a, sF, s8b
-    cond: 33円以下
+  - name: バトルVIPパス
+    link: https://www.pokemon-card.com/card-search/details.php/card/40053/regu/XY
+    image: https://www.pokemon-card.com/assets/images/card_images/large/S8/040053_T_BATORUVIPPASU.jpg
+    pack: s8
+    cond: 500円以下
     count: 4
