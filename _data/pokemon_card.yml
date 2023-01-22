@@ -1,8 +1,32 @@
-update: 2022/12/03
+update: 2023/1/22
 list:
-  - name: バトルVIPパス
-    link: https://www.pokemon-card.com/card-search/details.php/card/40053/regu/XY
-    image: https://www.pokemon-card.com/assets/images/card_images/large/S8/040053_T_BATORUVIPPASU.jpg
-    pack: s8
-    cond: 500円以下
-    count: 4
+  - name: ミライドンex
+    link: https://www.pokemon-card.com/card-search/details.php/card/42661/regu/XY
+    image: https://www.pokemon-card.com/assets/images/card_images/large/SV1V/042661_P_MIRAIDONEX.jpg
+    pack: sv1V
+    cond: 780円以下
+    count: 2
+  - name: エレキジェネレーター
+    link: https://www.pokemon-card.com/card-search/details.php/card/42693/regu/XY
+    image: https://www.pokemon-card.com/assets/images/card_images/large/SV1V/042693_T_EREKIJIENERETA.jpg
+    pack: sv1V
+    cond: 200円以下
+    count: 3
+  - name: ビーチコート
+    link: https://www.pokemon-card.com/card-search/details.php/card/42624/regu/XY
+    image: https://www.pokemon-card.com/assets/images/card_images/large/SV1S/042624_T_BICHIKOTO.jpg
+    pack: sv1S
+    cond: 200円以下
+    count: 1
+  - name: 森の封印石
+    link: https://www.pokemon-card.com/card-search/details.php/card/42184/regu/XY
+    image: https://www.pokemon-card.com/assets/images/card_images/large/S12/042184_T_MORINOFUUINSEKI.jpg
+    pack: s12
+    cond: 350円以下
+    count: 2
+  - name: トレッキングシューズ
+    link: https://www.pokemon-card.com/card-search/details.php/card/41422/regu/XY
+    image: https://www.pokemon-card.com/assets/images/card_images/large/S10D/041422_T_TOREKKINGUSHIXYUZU.jpg
+    pack: s10D, s12a
+    cond: 33円以下
+    count: 3
