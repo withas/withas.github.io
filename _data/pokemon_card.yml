@@ -10,7 +10,7 @@ list:
     link: https://www.pokemon-card.com/card-search/details.php/card/42693/regu/XY
     image: https://www.pokemon-card.com/assets/images/card_images/large/SV1V/042693_T_EREKIJIENERETA.jpg
     pack: sv1V
-    cond: 200円以下
+    cond: 120円以下
     count: 3
   - name: ビーチコート
     link: https://www.pokemon-card.com/card-search/details.php/card/42624/regu/XY
