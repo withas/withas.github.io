@@ -1,4 +1,4 @@
-update: 2023/1/25
+update: 2023/1/28
 list:
   - name: ミライドンex
     link: https://www.pokemon-card.com/card-search/details.php/card/42661/regu/XY
@@ -18,75 +18,9 @@ list:
     pack: sv1S
     cond: 200円以下
     count: 3
-  - name: ギラティナV
-    link: https://www.pokemon-card.com/card-search/details.php/card/42371/regu/XY
-    image: https://www.pokemon-card.com/assets/images/card_images/large/S12a/042371_P_GIRATEINAV.jpg
-    pack: s11, s12a
-    cond: 80円以下
-    count: 3
-  - name: ギラティナVSTAR
-    link: https://www.pokemon-card.com/card-search/details.php/card/42372/regu/XY
-    image: https://www.pokemon-card.com/assets/images/card_images/large/S12a/042372_P_GIRATEINAVSTAR.jpg
-    pack: s11, s12a
-    cond: 80円以下
-    count: 3
-  - name: ミュウV
-    link: https://www.pokemon-card.com/card-search/details.php/card/42314/regu/XY
-    image: https://www.pokemon-card.com/assets/images/card_images/large/S12a/042314_P_MIXYUUV.jpg
-    pack: s8, s12a
-    cond: 80円以下
-    count: 3
-  - name: ミュウVMAX
-    link: https://www.pokemon-card.com/card-search/details.php/card/42315/regu/XY
-    image: https://www.pokemon-card.com/assets/images/card_images/large/S12a/042315_P_MIXYUUVMAX.jpg
-    pack: s8, s12a
-    cond: 80円以下
-    count: 3
-  - name: ゲノセクトV
-    link: https://www.pokemon-card.com/card-search/details.php/card/42363/regu/XY
-    image: https://www.pokemon-card.com/assets/images/card_images/large/S12a/042363_P_GENOSEKUTOV.jpg
-    pack: s8, s12a
-    cond: 80円以下
-    count: 4
-  - name: メロエッタ
-    link: https://www.pokemon-card.com/card-search/details.php/card/40010/regu/XY
-    image: https://www.pokemon-card.com/assets/images/card_images/large/S8/040010_P_MEROETTA.jpg
-    pack: s8
-    cond: 33円以下
-    count: 2
-  - name: パワータブレット
-    link: https://www.pokemon-card.com/card-search/details.php/card/42400/regu/XY
-    image: https://www.pokemon-card.com/assets/images/card_images/large/S12a/042400_T_PAWATABURETTO.jpg
-    pack: s8, s12a
-    cond: 33円以下
-    count: 4
-  - name: カミツレのきらめき
-    link: https://www.pokemon-card.com/card-search/details.php/card/42411/regu/XY
-    image: https://www.pokemon-card.com/assets/images/card_images/large/S12a/042411_T_KAMITSURENOKIRAMEKI.jpg
-    pack: s8, s12a
-    cond: 33円以下
-    count: 3
-  - name: ロストシティ
-    link: https://www.pokemon-card.com/card-search/details.php/card/41903/regu/XY
-    image: https://www.pokemon-card.com/assets/images/card_images/large/S11/041903_T_ROSUTOSHITEI.jpg
-    pack: s11
-    cond: 80円以下
-    count: 2
-  - name: フュージョンエネルギー
-    link: https://www.pokemon-card.com/card-search/details.php/card/42433/regu/XY
-    image: https://www.pokemon-card.com/assets/images/card_images/large/S12a/042433_E_FUXYUJIXYONENERUGI.jpg
-    pack: s8, s12a
-    cond: 33円以下
-    count: 4
   - name: 森の封印石
     link: https://www.pokemon-card.com/card-search/details.php/card/42184/regu/XY
     image: https://www.pokemon-card.com/assets/images/card_images/large/S12/042184_T_MORINOFUUINSEKI.jpg
     pack: s12
     cond: 350円以下
     count: 2
-  - name: トレッキングシューズ
-    link: https://www.pokemon-card.com/card-search/details.php/card/41422/regu/XY
-    image: https://www.pokemon-card.com/assets/images/card_images/large/S10D/041422_T_TOREKKINGUSHIXYUZU.jpg
-    pack: s10D, s12a
-    cond: 33円以下
-    count: 3
