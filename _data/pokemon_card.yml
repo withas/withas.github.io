@@ -1,4 +1,4 @@
-update: 2023/1/28
+update: 2023/1/29
 list:
   - name: ミライドンex
     link: https://www.pokemon-card.com/card-search/details.php/card/42661/regu/XY
@@ -18,9 +18,9 @@ list:
     pack: sv1S
     cond: 200円以下
     count: 3
-  - name: 森の封印石
-    link: https://www.pokemon-card.com/card-search/details.php/card/42184/regu/XY
-    image: https://www.pokemon-card.com/assets/images/card_images/large/S12/042184_T_MORINOFUUINSEKI.jpg
-    pack: s12
-    cond: 350円以下
-    count: 2
+  - name: ゲノセクトV
+    link: https://www.pokemon-card.com/card-search/details.php/card/42363/regu/XY
+    image: https://www.pokemon-card.com/assets/images/card_images/large/S12a/042363_P_GENOSEKUTOV.jpg
+    pack: s8, s12a
+    cond: 80円以下
+    count: 4
